@@ -1,4 +1,4 @@
-package com.leetcoding.test;
+package com.leetcode.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.leetcoding.problemset.Permutations;
+import com.leetcode.problemset.Permutations;
 
 public class PermutationsTest {
 

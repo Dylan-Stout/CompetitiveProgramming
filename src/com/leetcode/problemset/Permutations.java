@@ -1,4 +1,4 @@
-package com.leetcoding.problemset;
+package com.leetcode.problemset;
 
 import java.util.List;
 
