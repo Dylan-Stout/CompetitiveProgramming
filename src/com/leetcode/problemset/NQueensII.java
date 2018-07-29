@@ -33,9 +33,15 @@ import java.util.HashSet;
  */
 public class NQueensII {
 
+	/**
+	 * Total possible solutions for arrangments of queens on the board
+	 */
     public static int TOTAL_SOLUTIONS = 0; 
+    // columns that are under attack
     public static HashSet<Integer> attackedColumns = new HashSet<Integer>(); 
+    // rows that are under attack
     public static HashSet<Integer> attackedRows = new HashSet<Integer>(); 
+    // the state of the board
 	public static boolean[][] board = null; 
     
     /**
@@ -52,13 +58,18 @@ public class NQueensII {
 		
 		// instantiate the board with no queens present
 		board = new boolean[n][n]; 
-		
+		// first row will always be under attack
+		attackedRows.add(0); 
 		// iterate through placing the first queen in different spots in the first row
 		for(int firstQueenPos = 0; firstQueenPos<n; firstQueenPos++)
 		{
 			board[0][firstQueenPos] = true; // mark the location of the first queen
+			attackedColumns.add(firstQueenPos); 
+			
 			backtrackQueen(1,firstQueenPos,board); 
+
 			board[0][firstQueenPos] = false; //unmark the location for next iteration
+			attackedColumns.remove(firstQueenPos); 
 		}
 		
 		// Solutions will be accumulated by the recursive function adding to the total
@@ -83,6 +94,8 @@ public class NQueensII {
 			
 			if(isQueenSafe(row,col,board)){ //is the queen safe from attack at this position?
 				board[row][col] = true; // mark the position of the queen on the board
+				attackedColumns.add(col); 
+				attackedColumns.add(row); 
 				if(row == board[row].length-1) // at the last row? 
 				{
 					TOTAL_SOLUTIONS++; // this is a viable solution board, add to the count
@@ -109,16 +122,11 @@ public class NQueensII {
 	 * @return - true | the queen is safe -- false | the queen is under attack
 	 */
 	private static boolean isQueenSafe(int row, int col, boolean[][] board) {
-		// TODO Auto-generated method stub
-		if(board[row][col]) return false; 
-		for(int r = 0; r<board[row].length;r++) // check rows for queens
-		{
-			
-		}
-		for(int c = 0; c<board[row].length;c++) // check col for queens
-		{
-			
-		}
+
+		if(attackedColumns.contains(col)) return false; // is this column under attack?
+		if(attackedRows.contains(row)) return false;  // is this row under attack?
+		
+		
 		
 		return false;
 	}
