@@ -65,21 +65,38 @@ public class NQueensII {
 		return TOTAL_SOLUTIONS;
 	}
 	
+	/**
+	 * Recursive function to search for possible row combinations of queens on the board. 
+	 * 
+	 * 
+	 * 
+	 * @param row
+	 * @param col
+	 * @param board
+	 * @return
+	 */
 	public static boolean backtrackQueen(int row, int col, boolean[][] board)
 	{
 		
-		for(int column = 0; column<board[row].length; column++)
+		for(int column = 0; column<board[row].length; column++) // iterate through the columns in a row
 		{
 			
-			if(isQueenSafe(row,col,board)){
+			if(isQueenSafe(row,col,board)){ //is the queen safe from attack at this position?
+				board[row][col] = true; // mark the position of the queen on the board
+				if(row == board[row].length-1) // at the last row? 
+				{
+					TOTAL_SOLUTIONS++; // this is a viable solution board, add to the count
+					return true; //all queens have been placed on the board, return to last recursive branch
+				}else{
+					backtrackQueen(row+1,col,board); 
+				}
+			}else{
 				if(column == board[row].length-1){
-					
-					return false; //if we've reached last column in row return false
+					return false; //if we've reached last column in row and the queen can't be placed here
 				}
 			}
 		}
-	    board[row][col] = true; // set the queen 
-		return false; 
+		return false; //we exhausted all options to place the queen in this row 
 	}
 
 	/**
@@ -93,6 +110,16 @@ public class NQueensII {
 	 */
 	private static boolean isQueenSafe(int row, int col, boolean[][] board) {
 		// TODO Auto-generated method stub
+		if(board[row][col]) return false; 
+		for(int r = 0; r<board[row].length;r++) // check rows for queens
+		{
+			
+		}
+		for(int c = 0; c<board[row].length;c++) // check col for queens
+		{
+			
+		}
+		
 		return false;
 	}
 	
