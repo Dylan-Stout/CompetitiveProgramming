@@ -125,10 +125,40 @@ public class NQueensII {
 
 		if(attackedColumns.contains(col)) return false; // is this column under attack?
 		if(attackedRows.contains(row)) return false;  // is this row under attack?
+		return checkPositionsForDiaganolAttacks(row,col,board);
+	}
+	
+	/**
+	 * Check the upward diagonals of the matrix for queens that have already been placed, 
+	 * it will determine if the diagonals are safe. 
+	 * 
+	 * @param row - row spot of potential queen being placed
+	 * @param col - col spot of potential queen being placed
+	 * @param board - already placed queen positions
+	 * @return is the potential queen position safe for placing?
+	 */
+	private static boolean checkPositionsForDiaganolAttacks(int row, int col, boolean[][] board)
+	{
+		//check up/right (starting at the position up and to the right of the query position
+		if(row-1>0 && col+1<=board[col].length-1)
+		{
+			for(int r=row-1, c=col+1; (c>=0 && r>=0) && (c<=board[col].length-1 && r<=board[row].length-1); c++, r--)
+			{
+				if(board[r][c]) return false; 
+			}
+		}
 		
+		//check up/left 
+		if(row-1>0&& col-1>-board[col].length-1)
+		{
+			for(int r=row, c=col; (c>=0 && r>=0) && (c<=board[col].length-1 && r<=board[row].length-1); c--, r--)
+			{
+				if(board[r][c]) return false; 
+			}
+		}
 		
-		
-		return false;
+		// we didnt find any queens in the upwards diagonal check, so return safe
+		return true; 
 	}
 	
 
