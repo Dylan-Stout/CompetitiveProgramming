@@ -168,7 +168,7 @@ public class NQueensII {
 			}
 		}
 		
-		//check up/left 
+		//check up/left TODO -- something is wrong here with the if condition
 		if(row-1>=0&& col-1>=board[col].length-1)
 		{
 			for(int r=row-1, c=col-1; (c>=0 && r>=0) && (c<=board[col].length-1 && r<=board[row].length-1); c--, r--)
