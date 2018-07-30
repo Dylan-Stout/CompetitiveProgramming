@@ -30,7 +30,7 @@ A solution set is:
  *
  */
 public class ThreeSum {
-	
+	// TODO tim complexity of this is awful
 	public String concatNumbers(int i, int j, int k){
 		return String.valueOf(i) + "|" + String.valueOf(j)+"|"+String.valueOf(k); 
 	}
