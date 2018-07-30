@@ -11,5 +11,5 @@ The following are problems that have been attempted in this competitive programm
 
 ## LeetCode 
 
-52. N-Queens II
+52. [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
 
