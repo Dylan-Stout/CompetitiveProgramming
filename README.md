@@ -7,5 +7,9 @@ The problems will come from places like LeetCode, HackerRank, GeeksForGeeks, and
 to do the problems on your own and make me look like an ape banging on keys. 
 
 
+The following are problems that have been attempted in this competitive programming project: 
 
+###### LeetCode 
+
+52. N-Queens II
 
