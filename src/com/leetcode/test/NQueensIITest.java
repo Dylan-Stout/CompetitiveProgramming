@@ -36,20 +36,20 @@ import com.leetcode.problemset.NQueensII;
  *
  */
 public class NQueensIITest {
-
-/*	@Test
+/*
+	@Test
 	public void isOneQueenCorrect() {
 		assertEquals(1,NQueensII.totalNQueens(1)); 
-	}*/
+	}
 	@Test
 	public void isTwoQueenCorrect() {
 		assertEquals(0,NQueensII.totalNQueens(2)); 
 	}
-	/*@Test
+	@Test
 	public void isThreeQueenCorrect() {
 		assertEquals(0,NQueensII.totalNQueens(3)); 
 	}
-	
+*/
 	@Test
 	public void isFourQueenCorrect() {
 		assertEquals(2,NQueensII.totalNQueens(4)); 
@@ -59,7 +59,7 @@ public class NQueensIITest {
 	public void isFiveQueenCorrect() {
 		assertEquals(10,NQueensII.totalNQueens(5)); 
 	}
-*/
+/*
 	/*@Test
 	public void isSixQueenCorrect() {
 		assertEquals(4,NQueensII.totalNQueens(6)); 

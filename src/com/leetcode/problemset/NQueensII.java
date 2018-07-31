@@ -98,6 +98,7 @@ public class NQueensII {
 					return true; //all queens have been placed on the board, return to last recursive branch
 				}else{
 					backtrackQueen(row+1,col,board); 
+					board[row][position] = false;
 				}
 			}else{
 				if(position == board[0].length-1){
@@ -162,16 +163,16 @@ public class NQueensII {
 		//check up/right (starting at the position up and to the right of the query position
 		if(row-1>=0 && col+1<=board[col].length-1)
 		{
-			for(int r=row-1, c=col+1; (c>=0 && r>=0) && (c<=board[col].length-1 && r<=board[row].length-1); c++, r--)
+			for(int r=row-1, c=col+1; (c>=0 && r>=0) && (c<board[col].length && r<board[row].length); c++, r--)
 			{
 				if(board[r][c]) return true; 
 			}
 		}
 		
 		//check up/left TODO -- something is wrong here with the if condition
-		if(row-1>=0&& col-1>=board[col].length-1)
+		if(row-1>=0&& col-1>=0)
 		{
-			for(int r=row-1, c=col-1; (c>=0 && r>=0) && (c<=board[col].length-1 && r<=board[row].length-1); c--, r--)
+			for(int r=row-1, c=col-1; (c>=0 && r>=0) && (c<board[col].length && r<board[row].length); c--, r--)
 			{
 				if(board[r][c]) return true; 
 			}
