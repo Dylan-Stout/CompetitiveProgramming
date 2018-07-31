@@ -11,11 +11,18 @@ The following are problems that have been attempted/solved:
 
 ## LeetCode 
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) - Medium - Solved 
+
 [15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Unsolved
+
 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) - Hard - Unsolved
+
 [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - Unsolved edge cases
+
 [78. Subsets](https://leetcode.com/problems/subsets/description/) - Medium - Unsolved
+
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) - Hard - Unsolved
+
 [782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/description/) - Hard - Unsolved
+
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
 
