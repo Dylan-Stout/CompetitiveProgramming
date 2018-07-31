@@ -1,6 +1,6 @@
 # Competitive Programming Java
 
-This repository will be used as a store of all my practice work for competitive programming: Algorithms, Data Structures, 
+This repository will be used as a store of all my Java practice work for competitive programming: Algorithms, Data Structures, 
 Machine Learning, Artifical Intelligence, and more. 
 
 Hopefully others can learn from my failures (maybe some triumphs...maybe)
