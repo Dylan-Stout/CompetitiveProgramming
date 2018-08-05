@@ -28,6 +28,10 @@ The following are problems that have been attempted/solved:
 
 ## Crack The Coding Interview
 
+## Chapter 6 
+
+Big O runtime analysis: 12 Examples
+
 ### Chapter 7
 
 Implement Data Structures: ArrayList, Graph, HashTable, Heap, LinkedList, Queue, Stack, Tree, Trie
