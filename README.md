@@ -26,3 +26,12 @@ The following are problems that have been attempted/solved:
 
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
 
+## Crack The Coding Interview
+
+### Chapter 7
+
+Implement Data Structures: ArrayList, Graph, HashTable, Heap, LinkedList, Queue, Stack, Tree, Trie
+
+## Various other sites
+
+LinkedIn Interview Question - Remove Duplicates from Linked List - Easy - Solved
