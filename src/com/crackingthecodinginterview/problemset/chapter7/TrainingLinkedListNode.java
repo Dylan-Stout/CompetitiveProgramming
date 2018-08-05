@@ -10,6 +10,51 @@ public class TrainingLinkedListNode {
 	TrainingLinkedListNode next = null; 
 	TrainingLinkedListNode prev = null;
 	
+	/**
+	 * Add a Integer to the beggining of the list
+	 * 
+	 * @param node
+	 */
+	public void add(int nodeVal)
+	{
+		add(node,0); 
+	}
+	
+	/**
+	 * Insert the Integer in the list at specified index 
+	 * 
+	 * @param nodeVal
+	 * @param index
+	 */
+	public void add(int nodeVal, int index)
+	{
+		
+	}
+	
+	/**
+	 * Replaces the node at specified index with nodeVal
+	 * the old value that was in-place is returned
+	 * 
+	 * @param nodeVal
+	 * @param index
+	 * @return
+	 */
+	public Integer set(int nodeVal, int index)
+	{
+		return null; 
+	}
+	
+	/*
+	 * Returns Integer value at specifide List index
+	 * 
+	 */
+	public Integer get(int index)
+	{
+		return null; 
+	}
+	
+	public void linkLast()
+	
 	public int getVal() {
 		return val;
 	}
