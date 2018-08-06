@@ -34,7 +34,7 @@ Binary Search Tree implementation
 
 ### Chapter 6 
 
-Big O runtime analysis: 12 Examples
+Asymptotic upper bound (Big O) runtime analysis: 12 Examples
 
 ### Chapter 7
 
