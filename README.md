@@ -26,6 +26,11 @@ The following are problems that have been attempted/solved:
 
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
 
+## Geeks for Geeks 
+
+[Construct BST from given preorder traversal | Set 1](https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/) - Easy - Solved (possible O(n^2)?) 
+
+
 ## Crack The Coding Interview
 
 ### Chapter 4
