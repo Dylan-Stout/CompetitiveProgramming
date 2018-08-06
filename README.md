@@ -28,6 +28,10 @@ The following are problems that have been attempted/solved:
 
 ## Crack The Coding Interview
 
+### Chapter 4
+
+Binary Search Tree implementation
+
 ### Chapter 6 
 
 Big O runtime analysis: 12 Examples
