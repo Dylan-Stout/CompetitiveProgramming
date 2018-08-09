@@ -122,11 +122,15 @@ public class BigORuntimes {
 	/***
 	 * VI.7 - If a binary search tree is not balanced how long might it take (worst case)
 	 * to find an element in it?
+	 * 
+	 * Guess: log n
 	 */
 	
 	/**
 	 * VI.8 - You are looking for a specific value in a binary tree, but the tree is not 
 	 * a binary search tree. What is the time complexity of this?
+	 *
+	 * n^2
 	 */
 	
 	/**
@@ -134,6 +138,8 @@ public class BigORuntimes {
 	 *  array and returning this longer array. You've used the appendToNew method to create
 	 *   a copyArray function that repeatedly calls appendToNew. How long does copying an 
 	 *   array take?
+	 *   
+	 *   Guess: n^2
 	 */
 	public int[] copyArray(int[] array){
 		int[] copy = new int[0]; 
@@ -159,6 +165,8 @@ public class BigORuntimes {
 	
 	/**
 	 * VI.10 - Sums the digits in a number what is the big O time?
+	 * 
+	 * n?
 	 */
 	public int sumDigits(int n){
 		int sum = 0; 
