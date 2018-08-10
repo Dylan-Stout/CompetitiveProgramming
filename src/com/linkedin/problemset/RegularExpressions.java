@@ -1,9 +1,12 @@
 package com.linkedin.problemset;
-
+/**
+ * Problem found on linkedIn forum. 
+ * 
+ * @author dylan
+ *
+ */
 public class RegularExpressions {
-	
-	
-	
+
 	/**
 	 * Given a String s find the number of occurences of the target string
 	 * 
@@ -22,7 +25,7 @@ public class RegularExpressions {
 				totalOccurances++; 
 	
 		}
-		return totalOccurances; 
+		return totalOccurances;  
 	}
 
 	public static void main(String[] args) {
