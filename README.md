@@ -35,6 +35,12 @@ The following are problems that have been attempted/solved:
 
 ## Crack The Coding Interview
 
+### Chapter 2 
+
+Singly Linked List implementation
+Remove Duplicates from an unsorted singly linked list
+Remove Kth element from an unsorted singly linked list
+
 ### Chapter 4
 
 Binary Search Tree implementation
@@ -50,3 +56,4 @@ Implement Data Structures: ArrayList, Graph, HashTable, Heap, LinkedList, Queue,
 ## Various other sites
 
 LinkedIn Interview Question - Remove Duplicates from Linked List - Easy - Solved
+LinkedIn Interview Question - Using a regular expression find the number of occurences of the target string
