@@ -38,7 +38,9 @@ The following are problems that have been attempted/solved:
 ### Chapter 2 
 
 Singly Linked List implementation
+
 Remove Duplicates from an unsorted singly linked list
+
 Remove Kth element from an unsorted singly linked list
 
 ### Chapter 4
