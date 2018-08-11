@@ -27,8 +27,19 @@ public class RegularExpressions {
 		}
 		return totalOccurances;  
 	}
+	
+	public static int numberOcurrancesRegex(String original, String target)
+	{
+
+		return (original.length() -original.replaceAll(target, "").length())/target.length(); 
+		
+	}
+	
+	
 
 	public static void main(String[] args) {
-		System.out.println(numberOcurrances("katarinaiskatarinawhoisbeautifulandiloveherkatarina", "katarina" ));
+		//System.out.println(numberOcurrances("katarinaiskatarinawhoisbeautifulandiloveherkatarina", "katarina" ));
+		System.out.println(numberOcurrancesRegex("katarinaiskatarinawhoisbeautifulandiloveherkatarina", "katarina" ));
+		
 	}
 }
