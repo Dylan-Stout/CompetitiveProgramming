@@ -24,8 +24,7 @@ public class RemoveDups {
 		list.add(6);
 		list.printList();
 		System.out.println();
-		list.removeDuplicates(); // remove duplicates
-		
+		list.removeDuplicates(); // remove duplicates		
 		list.printList();
 		System.out.println();
 		list.removeWithValue(1); //remove with specified value
