@@ -52,7 +52,9 @@ public class TopKFrequentElements {
 		{
 			solutions.add(maxPriorQueue.poll().getKey()); 
 		}
-
+	
+	
+		
 		return solutions; 
 
 	}
