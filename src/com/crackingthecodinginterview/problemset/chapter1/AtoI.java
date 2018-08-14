@@ -1,6 +1,30 @@
 package com.crackingthecodinginterview.problemset.chapter1;
 
+import java.util.HashSet;
+
 public class AtoI {
+	
+	public String getHint(String secret, String guess) {
+        HashSet<Character> knownNumbers = new HashSet<Character>(); 
+        int bulls=0; 
+        int cows=0; 
+        char[] secretChar = secret.toCharArray(); 
+        char[] guessChar = guess.toCharArray(); 
+        for(int i=0; i<secretChar.length(); i++)
+        {
+            knownNumbers.add(secretChar[i]) ; 
+        }
+        for(int =0; i<secret.length(); i++)
+        {
+            if(knownNumbers.contains(guessChar[i])){
+                if(guessChar[i]==secretChar[i])
+                    bulls++; 
+                else
+                    cows++; 
+            }
+        }
+        return bulls.toString() +"A"+cows.toString() + "B";
+    }
 
 	/**
 	 * Given an ASCII String convert it to an integer. 
