@@ -20,6 +20,8 @@ The following are problems that have been attempted/solved:
 
 [78. Subsets](https://leetcode.com/problems/subsets/description/) - Medium - Unsolved
 
+[299.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/) - Medium - Solved
+
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) - Hard - Unsolved
 
 [401. Insert a value into a Binary Search Tree and return root](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) - Medium - Solved
