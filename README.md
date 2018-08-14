@@ -12,11 +12,11 @@ The following are problems that have been attempted/solved:
 ## LeetCode 
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) - Medium - Solved 
 
-[15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Unsolved
+[15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Solved
 
 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) - Hard - Unsolved
 
-[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - Unsolved edge cases
+[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - 98% Solved
 
 [78. Subsets](https://leetcode.com/problems/subsets/description/) - Medium - Unsolved
 
