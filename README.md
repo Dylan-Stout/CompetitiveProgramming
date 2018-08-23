@@ -22,6 +22,8 @@ The following are problems that have been attempted/solved:
 
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) - Hard - Unsolved
 
+[401. Insert a value into a Binary Search Tree and return root](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) - Medium - Solved
+
 [782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/description/) - Hard - Unsolved
 
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
