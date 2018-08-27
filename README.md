@@ -12,13 +12,15 @@ The following are problems that have been attempted/solved:
 ## LeetCode 
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) - Medium - Solved 
 
-[15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Unsolved
+[15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Solved
 
 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) - Hard - Unsolved
 
-[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - Unsolved edge cases
+[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - 98% Solved
 
 [78. Subsets](https://leetcode.com/problems/subsets/description/) - Medium - Unsolved
+
+[299.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/) - Medium - Solved
 
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) - Hard - Unsolved
 
@@ -35,6 +37,14 @@ The following are problems that have been attempted/solved:
 
 ## Crack The Coding Interview
 
+### Chapter 2 
+
+Singly Linked List implementation
+
+Remove Duplicates from an unsorted singly linked list
+
+Remove Kth element from an unsorted singly linked list
+
 ### Chapter 4
 
 Binary Search Tree implementation
@@ -50,3 +60,5 @@ Implement Data Structures: ArrayList, Graph, HashTable, Heap, LinkedList, Queue,
 ## Various other sites
 
 LinkedIn Interview Question - Remove Duplicates from Linked List - Easy - Solved
+
+LinkedIn Interview Question - Using a regular expression find the number of occurences of the target string
