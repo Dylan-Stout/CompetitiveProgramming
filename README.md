@@ -12,11 +12,17 @@ The following are problems that have been attempted/solved:
 ## LeetCode 
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) - Medium - Solved 
 
+[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) - Easy - Solved
+
 [15. 3Sum](https://leetcode.com/problems/3sum/description/) - Medium - Solved
 
 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) - Hard - Unsolved
 
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) - Medium - Solved
+
 [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) - Hard - 98% Solved
+
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) - Hard - passes 87%
 
 [78. Subsets](https://leetcode.com/problems/subsets/description/) - Medium - Unsolved
 
@@ -24,9 +30,21 @@ The following are problems that have been attempted/solved:
 
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) - Hard - Unsolved
 
+[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) - Medium - Solved
+
+[380. Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) - Medium - Solved
+
 [401. Insert a value into a Binary Search Tree and return root](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) - Medium - Solved
 
+[681. Next Closest time](https://leetcode.com/problems/next-closest-time/description/) - Medium - Solved
+
+[701. Insert into a Binary Search tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) - Medium - Solved
+
+[729. My Calendar I](https://leetcode.com/problems/my-calendar-i/description/) - Medium - Solved
+
 [782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/description/) - Hard - Unsolved
+
+[846. Hand Of Straights](https://leetcode.com/problems/hand-of-straights/description/) - Medium - Solved
 
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
 
