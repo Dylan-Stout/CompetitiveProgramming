@@ -84,7 +84,7 @@ public class TrainingDoublyLinkedList<T> {
 		}
 	}
 	
-	public TrainingSinglyLinkedList(T rootVal){
+	public TrainingDoublyLinkedList(T rootVal){
 		this.head = new Node(rootVal);
 	}
 	

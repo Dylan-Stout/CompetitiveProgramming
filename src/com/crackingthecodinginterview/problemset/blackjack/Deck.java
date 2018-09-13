@@ -8,10 +8,10 @@ public class Deck {
 	
 	public Deck(int numSuites, int numCardsPerSuite)
 	{
-		cards = add
+	//	cards = add
 	}
 	
 	
-	public Card[] ShuffleDeck
+	
 
 }

@@ -10,11 +10,11 @@ public class AtoI {
         int cows=0; 
         char[] secretChar = secret.toCharArray(); 
         char[] guessChar = guess.toCharArray(); 
-        for(int i=0; i<secretChar.length(); i++)
+        for(int i=0; i<secretChar.length; i++)
         {
             knownNumbers.add(secretChar[i]) ; 
         }
-        for(int =0; i<secret.length(); i++)
+        for(int i=0; i<secret.length(); i++)
         {
             if(knownNumbers.contains(guessChar[i])){
                 if(guessChar[i]==secretChar[i])
@@ -23,7 +23,7 @@ public class AtoI {
                     cows++; 
             }
         }
-        return bulls.toString() +"A"+cows.toString() + "B";
+        return bulls+"A "+cows+ "B";
     }
 
 	/**

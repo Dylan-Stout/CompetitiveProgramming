@@ -37,6 +37,7 @@ public class TowerHopper {
 	public int nextStep(int[] towers, int start, int end)
 	{
 		int max = -1; 
-		for(int i=start; i<end)
+		//TODO impl
+		return 0; 
 	}
 }

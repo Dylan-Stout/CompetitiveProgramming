@@ -20,13 +20,13 @@ public class SingleElementSortedArray {
 	
 	public int singleElementInDuplicateArray(int[] arr)
 	{
-		if(arr.length>=3)
-		{
-			int firstEnd = arr.length/2; 
-			int compareMid = arr.length/2 + arr.length%2; 
-			int endStart = compareMid + 1; 
-			if(compareMid)
-		}
+//		if(arr.length>=3)
+//		{
+//			int firstEnd = arr.length/2; 
+//			int compareMid = arr.length/2 + arr.length%2; 
+//			int endStart = compareMid + 1; 
+//			if(compareMid)
+//		}
 		
 		
 

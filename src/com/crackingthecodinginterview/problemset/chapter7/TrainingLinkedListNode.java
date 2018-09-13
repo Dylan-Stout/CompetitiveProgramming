@@ -17,7 +17,7 @@ public class TrainingLinkedListNode {
 	 */
 	public void add(int nodeVal)
 	{
-		add(node,0); 
+		add(nodeVal,0); 
 	}
 	
 	/**
@@ -52,8 +52,6 @@ public class TrainingLinkedListNode {
 	{
 		return null; 
 	}
-	
-	public void linkLast()
 	
 	public int getVal() {
 		return val;

@@ -1,10 +1,7 @@
-package src.com.leetcode.problemset;
+package com.leetcode.problemset;
 
 public class HammingDistance {
 	
-	public HammingDistance()
-	{
-		super(); 
-	}
+
 
 }
