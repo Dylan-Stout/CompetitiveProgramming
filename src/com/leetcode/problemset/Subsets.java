@@ -32,39 +32,52 @@ Output:
  */
 public class Subsets {
 	
-	protected List<List<Integer>> knownSubsets = new ArrayList<List<Integer>>(); 
+	/**
+	 * Implemented with backtracking
+	 * 
+	 * @param nums
+	 * @return
+	 */
+	public static List<List<Integer>> subsets(int[] nums) {
+		List<List<Integer>> subsets = new ArrayList<>(); // this reference will be passed down to method to populate list of list of integers (our subsets)
+		Arrays.sort(nums);
+		backtrack(subsets, new ArrayList<>(), nums, 0); 
+        return null; 
+    }
 
-
-	public List<List<Integer>> subsets(int[] nums)
-	{
-		knownSubsets.add(null); //every set has the empty set
-		if(nums.length==0) // trivial solution when the set is empty
-			return knownSubsets; 
-		Integer[] objNums = new Integer[nums.length]; 
-		for(int i =0; i<nums.length;i++)
+	private static void backtrack(List<List<Integer>> subsets, List<Integer> tempList, int[] nums, int start) {
+		// TODO Auto-generated method stub
+		subsets.add(new ArrayList<>(tempList)); // add obligatory empty set because this is a subset of all sets
+		for(int i = start; i<nums.length; i++)
 		{
-			objNums[i] = (Integer)nums[i]; 
+			tempList.add(nums[i]); 
+			backtrack(subsets, tempList, nums, i+1); 
+			tempList.remove(tempList.size()-1); 
 		}
-
-		if(objNums.length==1){ // trivial solution when the set is length 1 
-			knownSubsets.add(Arrays.asList(objNums)); 
-			return knownSubsets; 
-		}
-		addSubsets(objNums,null); //recursively add two subsets of the set subsets to list of known subsets 
-		return knownSubsets; 
 	}
+	
+	public static List<List<Integer>> subsetsEx(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (nums == null) { return ans; }
+        Arrays.sort(nums);  // non-descending order
+        dfs(ans, nums, new ArrayList<Integer>(), 0);
+        return ans; 
+    }
+    
+    private static void dfs(List<List<Integer>> ans, int[] nums, List<Integer> list, int index) {
+        if (index == nums.length) { ans.add(new ArrayList<Integer>(list)); return; }
+        dfs(ans, nums, list, index+1);  // not pick the number at this index
+        list.add(nums[index]);
+        dfs(ans, nums, list, index+1);  // pick the number at this index
+        list.remove(list.size()-1);
+    }
 
-	public void addSubsets(Integer[] leftDivision, Integer[] rightDivision)
-	{
-		if(rightDivision==null) knownSubsets.add(null); // add null set on first go
-		else if
-		if(leftDivision.length==1){ knownSubsets.add(Arrays.asList(leftDivision)); return; } // reached leaf nodes return
-		else knownSubsets.add(Arrays.asList(rightDivision)); //add right 
-		knownSubsets.add(Arrays.asList(leftDivision)); 		//add left 
-		if(leftDivision.)
-		int leftMid = leftDivision.length%2==0?leftDivision.length/2:(leftDivision.length/2)+1; 
-		int rightMid = rightDivision.length%2==0?rightDivision.length/2:(rightDivision.length/2)-1; 
-		
-		
+	
+	public static void main(String[] args) {
+		subsetsEx(new int[] {1,2,3,4,5}); 
 	}
+	
+	
+	
+	
 }
