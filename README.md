@@ -48,6 +48,8 @@ The following are problems that have been attempted/solved:
 
 [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) - Medium - Solved
 
+[890. Find and replace pattern](https://leetcode.com/problems/find-and-replace-pattern/description/) - Medium - Unsolved
+
 ## Geeks for Geeks 
 
 [Construct BST from given preorder traversal | Set 1](https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/) - Easy - Solved (possible O(n^2)?) 
