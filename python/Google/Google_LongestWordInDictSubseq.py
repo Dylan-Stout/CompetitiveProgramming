@@ -35,4 +35,3 @@ class Solution(object):
 if __name__ == '__main__':
     sol = Solution()
     print(sol.longestWordInSequence("abppplee",{"able", "ale", "apple", "bale", "kangaroo"}))
- 
